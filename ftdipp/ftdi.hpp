@@ -100,7 +100,7 @@ public:
 
     /* I/O */
     int read(unsigned char *buf, int size);
-    int write(unsigned char *buf, int size);
+    int write(const unsigned char *buf, int size);
     int set_read_chunk_size(unsigned int chunksize);
     int set_write_chunk_size(unsigned int chunksize);
     int read_chunk_size();
